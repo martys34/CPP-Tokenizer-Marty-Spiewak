@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/martyspiewak/CLionProjects/C++_Interpreter_Marty_Spiewak/Token.cpp
+Token.h
+/Users/martyspiewak/CLionProjects/C++_Interpreter_Marty_Spiewak/Token.h
+
+/Users/martyspiewak/CLionProjects/C++_Interpreter_Marty_Spiewak/Token.h
+string
+-
+
+/Users/martyspiewak/CLionProjects/C++_Interpreter_Marty_Spiewak/Tokenizer.cpp
+Tokenizer.h
+/Users/martyspiewak/CLionProjects/C++_Interpreter_Marty_Spiewak/Tokenizer.h
+
+/Users/martyspiewak/CLionProjects/C++_Interpreter_Marty_Spiewak/Tokenizer.h
+iostream
+-
+string
+-
+stack
+-
+unordered_map
+-
+unordered_set
+-
+fstream
+-
+Token.cpp
+/Users/martyspiewak/CLionProjects/C++_Interpreter_Marty_Spiewak/Token.cpp
+
+/Users/martyspiewak/CLionProjects/C++_Interpreter_Marty_Spiewak/main.cpp
+string
+-
+Tokenizer.cpp
+/Users/martyspiewak/CLionProjects/C++_Interpreter_Marty_Spiewak/Tokenizer.cpp
+
