@@ -1,3 +1,7 @@
+#include "Tokenizer.h"
+
+using namespace std;
+
 Tokenizer::Tokenizer(string filePath) {
 loadFile(filePath);
 }
@@ -473,10 +477,11 @@ Token* Tokenizer::nextToken() {
     //ident starting with #
     if (c == '#') {
         i=0;
+        tk[i++] = c;
         c = getNextChar();
         while (isalpha(c) || isdigit(c)) {
             tk[i++] = c;
-
+            c = getNextChar();
         }
         ungetChar(c);
         return new Token(Token::TokenType::IDENT, tk, i);
